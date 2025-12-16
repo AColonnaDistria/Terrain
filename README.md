@@ -16,7 +16,7 @@ This project implements procedural terrain generation using the **Midpoint Displ
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 | File | Description |
 | :--- | :--- |
