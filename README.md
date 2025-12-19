@@ -12,7 +12,9 @@ The algorithm starts by setting the four corners to random values and then itera
 - Dual View: Simultaneous display of:
     * A top-Down (2D) view, where each square's color is mapped directly to its height.
     * An isometric view.
-* Color-to-Height Mapping: Heights are mapped to colors: blue for low values (water), and shades of green for higher values, simulating elevation.
+- Color-to-Height Mapping: Heights are mapped to colors: blue for low values (water), and shades of green for higher values, simulating elevation.
+- Moving the map: using the left, right, up and down keys
+- Increasing/Decreasing map height: Left click increases the height and right click decreases it
 
 ---
 
@@ -41,3 +43,7 @@ The `Terrain::midpointDisplacement()` function is the core generation method:
     ```bash
     ./terrain_gen
     ```
+    
+## Video
+
+[![Watch the video](https://img.youtube.com/vi/OWB4mL2h0ps/maxresdefault.jpg)](https://youtu.be/OWB4mL2h0ps)
